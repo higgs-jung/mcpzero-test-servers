@@ -1,0 +1,27 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "description": "Translate text between languages",
+  "type": "skill",
+  "author": "mcpzero-test",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "text": {
+        "type": "string",
+        "description": "The text to translate"
+      },
+      "source_language": {
+        "type": "string",
+        "description": "Source language code (e.g. en, ko, ja)",
+        "default": "auto"
+      },
+      "target_language": {
+        "type": "string",
+        "description": "Target language code (e.g. en, ko, ja)"
+      }
+    },
+    "required": ["text", "target_language"]
+  },
+  "tags": ["text", "translation", "i18n"]
+}
