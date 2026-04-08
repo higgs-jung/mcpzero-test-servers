@@ -1,0 +1,16 @@
+{
+  "name": "echo-http-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts",
+    "dev": "tsx watch index.ts"
+  },
+  "dependencies": {
+    "fastmcp": "^3.35.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0"
+  }
+}
